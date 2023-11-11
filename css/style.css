@@ -5,6 +5,13 @@
 body{
   font-family: Work Sans;
 }
+main{
+  background: #FFF;
+  border: 1px solid red;
+  padding-left: 180px;
+  padding-right: 180px;
+  padding-top: 85px;
+}
 
 /* header section styles */
 .header-section{
@@ -45,7 +52,7 @@ body{
   font-weight: 500;
 }
 
-/* banner styles */
+/* banner section styles */
 .banner{
   display: flex;
   flex-direction: column;
@@ -74,7 +81,7 @@ body{
 .button{
   padding-bottom: 50px;
 }
-.banner-button{
+.button{
   color: #FFF;
   border: 0;
   width: 180px;
@@ -89,4 +96,46 @@ body{
   width: 100%;
   height: 500px;
   padding-bottom: 45px;
+}
+
+/* Features section styles */
+.feature-section{
+  padding-bottom: 130px;
+}
+.features{
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.feature-images{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 24px;
+}
+.feature-thumbnail img{
+  width: 250px;
+  height: 250px;
+  border-radius: 8px;
+}
+.feature-info{
+  padding-top: 100px;
+}
+.feature-title{
+  color: #727272;
+  font-size: 45px;
+  font-weight: 500;
+}
+.feature-title .span-1{
+  font-weight: 700;
+  color: #131313;
+}
+.feature-title .span-2{
+  font-weight: 700;
+  color: #FF900E;
+}
+.feature-details{
+  color: #727272;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 32px;
 }
