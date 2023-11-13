@@ -7,7 +7,7 @@ body{
 }
 main{
   background: #FFF;
-  border: 1px solid red;
+  border: 0;
   padding-left: 180px;
   padding-right: 180px;
   padding-top: 85px;
@@ -330,7 +330,50 @@ main{
 .sponsor-lists .sopnsor-list img{
   width: 166px;
   height: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
+}
+
+/* Membership section styles */
+.membership-section{
+  padding-bottom: 130px;
+}
+.membership-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.membership-info .membership-title{
+  color: #131313;
+  font-size: 45px;
+  font-weight: 700;
+  margin: 0;
+  padding-bottom: 20px;
+}
+.membership-info .membership-details{
+  color: #727272;
+  font-size: 16px;
+  font-weight: 400;
+  width: 542px;
+  height: 52px;
+  text-align: center;
+  line-height: 26px;
+  margin: 0;
+  padding-bottom: 50px;
+}
+.membership-lists{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.membership-lists .membership-list{
+  border: 1px solid #FF900E;
+  width: 170px;
+  height: 150px;
+}
+.membership-lists .membership-list img{
+  width: 150px;
+  height: 150px;
+  padding: 0px 10px;
 }
 
 /* Media Query for Mobile Device */
