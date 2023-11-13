@@ -5,7 +5,7 @@
 body{
   font-family: Work Sans;
 }
-main{
+main,footer{
   background: #FFF;
   border: 0;
   padding-left: 180px;
@@ -374,6 +374,23 @@ main{
   width: 150px;
   height: 150px;
   padding: 0px 10px;
+}
+
+/* Footer section */
+.footer-section{
+  margin: 0;
+  padding-bottom: 100px;
+}
+.footer{
+  border-radius: 8px;
+  background: #FFF4E7;
+  height: 100px;
+}.footer .copyright{
+  color: #424242;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  padding: 39px 250px;
 }
 
 /* Media Query for Mobile Device */
