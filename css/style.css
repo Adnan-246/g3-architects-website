@@ -81,11 +81,9 @@ main{
 .button{
   padding-bottom: 50px;
 }
-.button{
+.banner-button{
   color: #FFF;
   border: 0;
-  width: 180px;
-  height: 64px;
   background: #FF900E;
   border-radius: 8px;
   font-size: 20px;
@@ -100,7 +98,7 @@ main{
 
 /* Features section styles */
 .feature-section{
-  padding-bottom: 130px;
+  padding-bottom: 100px;
 }
 .features{
   display: flex;
@@ -137,5 +135,181 @@ main{
   color: #727272;
   font-size: 16px;
   font-weight: 400;
+  margin: 0;
   padding-bottom: 32px;
+}
+
+/* Feature Benefit section styles */
+.feature-benefit-section{
+  padding-bottom: 100px;
+}
+.feature-benefit{
+  display: flex;
+  justify-content: space-between;
+  gap: 46px;
+}
+.vl{
+  width: 5px;
+  height: 106px;
+  background: #FF900E;
+}
+.benefit-section-title{
+  display: flex;
+  gap: 21px;
+}
+.feature-benefit-title{
+  color: #131313;
+  font-size: 45px;
+  font-weight: 700;
+  width: 468px;
+  height: 106px;
+  margin: 0;
+  padding-bottom: 24px;
+}
+.feature-benefit-details{
+  width: 586px;
+  height: 78px;
+  color: #727272;
+  line-height: 26px;
+  margin: 0;
+  padding-bottom: 30px;
+}
+.feature-benefit .benefit-section-title .section-title .benefit-article-section{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-row-gap: 20px;
+  background: #fafafa;
+}
+.feature-benefit .benefit-section-title .section-title .benefit-article{
+  border: 1px solid white;
+  width: 586px;
+  height: auto;
+  padding: 0px 42px 30px 30px;
+  background: #FFF;
+  border-radius: 5px;
+  margin: 8px;
+}
+.feature-benefit .benefit-section-title .section-title .benefit-article .article-title{
+  color: #131313;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 8;
+  
+}
+.feature-benefit .benefit-section-title .section-title .benefit-article .article-details{
+  color: #727272;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0;
+}
+.feature-benefit .feature-benefit-img {
+  display: flex;
+  flex-direction: column;
+  
+}
+.feature-benefit .feature-benefit-img .feature-benefit-button .benefit-button{
+  background: #FF900E;
+  padding: 46px 42px;
+  border-radius: 8px;
+  border: 0;
+}
+.feature-benefit .feature-benefit-img img{
+  height: 1225px;
+  width: 508px;
+  border-radius: 8px;
+}
+.feature-benefit-section .feature-benefit-button{
+  padding-left: 720px;
+  z-index: 500;
+}
+.feature-benefit-section .feature-benefit-button .benefit-button{
+  background: #FF900E;
+  padding: 46px 42px;
+  border-radius: 8px;
+  border: 0;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  z-index: 500;
+}
+.feature-benefit-section .feature-benefit-button .benefit-button span{
+  font-size: 65px;
+  font-weight: 700;
+  color: #FFF;
+}
+
+/* About fact section styles */
+.fact-info .fact-title{
+  font-size: 45px;
+  font-weight: 700;
+  color: #131313;
+  margin: 0;
+  padding-bottom: 24px;
+}
+.fact-info .fact-details{
+  width: 542px;
+  height: 52px;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  padding-bottom: 100px;
+}
+.fact-lists{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 180px;
+}
+.fact-list{
+  width: 240px;
+  height: 240px;
+  border-radius: 8px;
+  border: 1px solid #FF900E;
+  transition: transform 2s;
+}
+.fact-list:hover{
+  transform: rotate(180deg);
+  border: 1px solid red;
+}
+.fact-list .list-thumbnail img{
+  width: 45px;
+  height: 45px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 45px;
+  line-height: 0.5;
+}
+.fact-list .list-thumbnail{
+  color: #424242;
+  font-size: 45px;
+  font-weight: 600;
+  font-size: 45px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 0.7;
+}
+.fact-list .list-thumbnail .list-span{
+  color: #727272;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Media Query for Mobile Device */
+@media screen and (max-width:767.98px) {
+  .header-section{
+    max-width: 100%;
+    background: #FFF;
+  } 
+  .header{
+    flex-direction: column;
+  }
+  .header-nav{
+    flex-direction: column;
+  }
+  .nav-link ul{
+    flex-direction: column;
+    padding-left: 10px;
+  }
+
 }
